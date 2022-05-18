@@ -4,7 +4,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/rivo/tview"
+	"github.com/saucesteals/tview"
 )
 
 const pageCount = 5

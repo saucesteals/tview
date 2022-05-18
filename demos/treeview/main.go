@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 
 	"github.com/gdamore/tcell/v2"
-	"github.com/rivo/tview"
+	"github.com/saucesteals/tview"
 )
 
 // Show a navigable tree view of the current directory.

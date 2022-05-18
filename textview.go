@@ -134,7 +134,7 @@ func (w TextViewWriter) HasFocus() bool {
 // performance hit the longer your text gets. Consider using SetMaxLines() to
 // limit the number of lines in the text view.
 //
-// See https://github.com/rivo/tview/wiki/TextView for an example.
+// See https://github.com/saucesteals/tview/wiki/TextView for an example.
 type TextView struct {
 	sync.Mutex
 	*Box

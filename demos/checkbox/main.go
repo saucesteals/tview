@@ -1,7 +1,7 @@
 // Demo code for the Checkbox primitive.
 package main
 
-import "github.com/rivo/tview"
+import "github.com/saucesteals/tview"
 
 func main() {
 	app := tview.NewApplication()
