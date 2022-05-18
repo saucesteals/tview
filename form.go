@@ -231,6 +231,11 @@ func (f *Form) AddButton(label string, selected func()) *Form {
 	return f
 }
 
+// GetButtons returns all buttons in the form
+func (f *Form) GetButtons() []*Button {
+	return f.buttons
+}
+
 // GetButton returns the button at the specified 0-based index. Note that
 // buttons have been specially prepared for this form and modifying some of
 // their attributes may have unintended side effects.
